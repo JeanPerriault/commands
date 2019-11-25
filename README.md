@@ -1,8 +1,17 @@
 # Commands
 
+## Homebrew
+### Update homebrew itself
+brew update
+
 ## NVM update
 
-### Check latest nvm version at https://github.com/nvm-sh/nvm
+### Update NVM itself
+### Get current version
+nvm --version
+### Check latest nvm version
+See releases on https://github.com/nvm-sh/nvm
+### Update using latest npm version number
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 ### List available node version
