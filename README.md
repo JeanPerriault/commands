@@ -26,3 +26,5 @@ nvm install 12.13.1 --reinstall-packages-from=10.16.0 --latest-npm
 ### get latest npm 'only'
 npm i npm@latest -g
 
+### Actually use new node version
+nvm use 12.13.1
