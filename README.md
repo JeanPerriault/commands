@@ -33,6 +33,9 @@ See releases on https://github.com/nvm-sh/nvm/releases
 ```nvm install 12.13.1 --reinstall-packages-from=10.16.0 --latest-npm```
 ### Actually use new node version
 ```nvm use 12.13.1```
+### Use latest version as default
+```nvm alias default 12.13.1```
+
 
 ## Update npm itself
 ```npm i npm@latest -g```
